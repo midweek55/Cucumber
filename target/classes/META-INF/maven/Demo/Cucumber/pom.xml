@@ -45,7 +45,8 @@
 </dependency>
   </dependencies>
   <build>
-  	<plugins>
+  <pluginManagement>
+  <plugins>
   		 <plugin>
       <groupId>net.serenity-bdd.maven.plugins</groupId>
       <artifactId>serenity-maven-plugin</artifactId>
@@ -64,6 +65,7 @@
       </executions>
   </plugin>
   	</plugins>
+  	</pluginManagement>
   </build>
   
   

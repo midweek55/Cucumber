@@ -25,7 +25,7 @@ Feature: Create a  user
     Given I want to access the page
     Then I select the button Sing In
     Then I write
-     |email|mail10@mail.com|
+     |email|mail11@mail.com|
      |First name|Anyelo|
      |Last name|Pineda|
      |Password|Admin2021|
